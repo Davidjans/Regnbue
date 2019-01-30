@@ -26,7 +26,7 @@ public class PlayMovement : MonoBehaviour
             transform.position += (transform.TransformDirection(movement) * MovementSpeed) * Time.deltaTime;
         }
 
-        transform.rotation *= Quaternion.Euler(0, HorizontalMovement, 0);
+       // transform.rotation *= Quaternion.Euler(0, HorizontalMovement, 0);
 
         if (Input.GetButtonDown("Fire1"))
         {
